@@ -51,4 +51,4 @@ token = os.environ.get('BOT_TOKEN')
  
 # RUN
 client = MyClient()
-client.run(token) 
+client.run(str(token)) 
