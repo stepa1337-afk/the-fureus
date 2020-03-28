@@ -45,9 +45,7 @@ class MyClient(discord.Client):
             print('[ERROR] KeyError, no role found for ' + emoji)
         except Exception as e:
             print(repr(e))
-
-token = os.environ.get('BOT_TOKEN')
  
 # RUN
 client = MyClient()
-client.run(str(token)) 
+client.run(config.TOKEN)
