@@ -1,6 +1,5 @@
 import discord
 from discord import utils
-import os
  
 import config
  
